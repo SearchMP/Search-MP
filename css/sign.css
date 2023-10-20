@@ -3,6 +3,11 @@
     padding: 0;
     font-family: 'Poppins', 'sans-serif';
     box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body {
+    overflow: hidden;
 }
 
 .box {
@@ -19,7 +24,7 @@
     height: 77%;
     max-width: 400px;
     position: absolute;
-    top: 58%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
